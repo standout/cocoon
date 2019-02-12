@@ -3,10 +3,10 @@ Cocoon is awesome, but it isn't supported very well for the new webpacker asset 
 
 ```bash
 # Using the NPM client
-npm install github:nathanvda/cocoon --save
+npm install github:standout/cocoon --save
 
 # Using the Yarn client
-yarn add github:nathanvda/cocoon
+yarn add github:standout/cocoon
 ```
 We can then just do
 ```javascript
