@@ -1,3 +1,19 @@
+# why the fork?
+Cocoon is awesome, but it isn't supported very well for the new webpacker asset pipeline, since it's missing a package.json file. This fork adds that file. We can then, instead of installing from the gem, do this instead:
+
+```bash
+# Using the NPM client
+npm install github:nathanvda/cocoon --save
+
+# Using the Yarn client
+yarn add github:nathanvda/cocoon
+```
+We can then just do
+```javascript
+import 'cocoon';
+```
+in `application.js`
+
 # cocoon
 
 [![Build Status](https://travis-ci.org/nathanvda/cocoon.png?branch=master)](https://travis-ci.org/nathanvda/cocoon)
